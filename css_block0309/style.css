@@ -1,0 +1,22 @@
+.box-a {
+  background-color: lightgray;
+  padding: 30px;
+  border: 3px solid black;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 150px;
+  box-sizing: border-box;
+}
+
+.box-b {
+  background-color: orange;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.box-c {
+  background-color: pink;
+  width: 200px;
+  height: 150px;
+}
