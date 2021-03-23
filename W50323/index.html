@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btn1").click(function(){
+				alert("value: " + $("#test2").text());
+			});
+			$("#btn2").click(function(){
+			    $("#test2").val("DTD");
+		});
+		});
+
+	</script>
+
+</head>
+<body>
+	<p>Name:<input type="test" id="test2" value="Mickey Mouse"></p>
+	<button id="btn1">Show Value</button>
+    <button id="btn2">Input Value</button>
+</body>
+</html>
